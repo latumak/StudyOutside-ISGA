@@ -1,0 +1,70 @@
+html{
+	width: 100vw;
+	height: 100vw;
+}
+
+body{
+	display: block;
+	margin: 8px;
+	font-family: avenir;
+	color: white;
+	width: 375px;
+	height: 812px;
+	border: 1px solid black;
+	font-size: 9px;
+
+}
+
+@font-face{
+	font-family: SourceSansPro-Bold;
+	src: url(SourceSansPro-Bold.ttf);
+}
+
+header{
+	padding-left: 5px;
+}
+
+main{
+	background-color: black;
+	padding: 5px;
+}
+
+h1{
+	font-family: SourceSansPro-Bold;
+	color: #e31a1f;
+	font-size: 13px;
+}
+
+iframe{
+	width: 365px;
+	height: 580px;
+	border: 0px;
+}
+
+footer{
+	background-color: white;
+	width: 375px;
+	padding-top: 5px;
+}
+
+a.home{
+	padding: 5px;
+}
+
+a.search{
+	margin-left: 150px;
+}
+
+a.saved{
+	float: right;
+	padding-right: 10px;
+}
+
+img.saved{
+	margin-right: auto;
+}
+
+img.start{
+	margin-left: 280px;
+	margin-bottom: 5px;
+}
