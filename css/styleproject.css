@@ -1,0 +1,226 @@
+html{
+	width: 100vw;
+	height: 100vw;
+}
+
+body{
+	font-family: avenir;
+	border: 0.05em solid black;
+	width: 375px;
+	height: 812px;
+	font-size: 100%;
+	color: white;
+}
+
+@font-face{
+	font-family: 'SourceSansPro-SemiBold';
+	src: url('../assets/SourceSansPro-SemiBold.ttf');
+	font-family: 'SourceSansPro-Regular';
+	src: url('../assets/SourceSansPro-Regular.ttf');
+}
+
+h1{
+	font-family: SourceSansPro-SemiBold;
+	color: #e31a1f;
+	font-size: 1.5em;
+}
+
+h1 img{
+	float: right;
+	margin: 0 0.3em 0 0;
+}
+
+h1.saved{
+	text-align: center;
+}
+
+h2{
+	font-family: SourceSansPro-Regular;
+	color: #e31a1f;
+	font-size: 1.3em;
+}
+
+h2 img{
+	float: right;
+	margin: 0 0.3em 0 0;
+}
+
+h3{
+	font-family: SourceSansPro-Regular;
+	color: #e31a1f;
+	font-size: 1.17em;
+}
+
+header{
+	padding-left: 0.3em;
+}
+
+main{
+	padding: 0.3em;
+	background-color: black;
+}
+
+/*footer*/
+
+footer{
+	background-color: white;
+	width: 23.4em;
+	padding-top: 0.3em;
+	border-top: 0.05em solid;
+}
+
+a.home{
+	padding: 0.3em;
+}
+
+a.search{
+	margin-left: 9.3em;
+}
+
+a.saved{
+	float: right;
+	padding-right: 0.6em;
+}
+
+.ksh_page, .wbh_page, .mlh_page, .no_searches, .tpaardje_page, .chris_page, .tabac_page{
+	height: 86%;
+	overflow: scroll;
+}
+
+
+a:link{
+	font-family: avenir;
+}
+
+a:visited{
+	font-family: avenir;
+	color: white;
+}
+
+section.index{
+	height: 19.3em;
+	overflow: scroll;
+}
+
+iframe{
+	width: 100%;
+	height: 24em;
+	border: 0;
+}
+
+.filter{
+	font-size: 100%;
+	height: 2.5em;
+}
+
+.kohnstammhuis{
+	width: 100%;
+	height: 18em;
+}
+
+.wibauthuis, .mullerlulofshuis{
+	width: 100%;
+	height: 17.5em;
+}
+
+form>p{
+	font-size: 1.1em;
+	color: #e31a1f;
+}
+
+/*sections*/
+
+section.savelocations{
+	height: 20em;
+	overflow: scroll;
+}
+
+section.nosavedlocations{
+	height: 32em;
+	overflow: scroll;
+}
+
+section.matched_filters{
+	height: 40em;
+	overflow: scroll;
+}
+
+section>h2{
+	font-size: 100%;
+	color: white;
+}
+
+/*articles*/ 
+
+article.ksh{
+	border-top: 0.05em solid;
+}
+
+article.wbh{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.mlh{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.tpaard{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.chris{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.tabac{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+.icons, .icons_cafe{
+	height: 3.75em;
+}
+
+img.tpaardje{
+	width: 100%;
+}
+
+img.sad{
+	height: 2.5em;
+	margin-left: 10.3em;
+}
+
+img.saved{
+	height: 1.1em;
+	margin-right: auto;
+}
+
+/*buttons*/
+
+img.previous{
+	display: block;
+	float: left;
+	padding: 0.3em;
+}
+
+img.route{
+	display: block;
+	margin: 0em auto;
+	padding-bottom: 0.3em;
+}
+
+img.next{
+	float: right;
+	padding: 0.3em;
+}
+
+img.filter_icon{
+	display: block;
+	margin: 0em auto;
+	padding-bottom: 0.3em;
+	padding-top: 11.5em;
+}

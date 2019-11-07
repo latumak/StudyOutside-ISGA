@@ -1,0 +1,69 @@
+html{
+	width: 100vw;
+	height: 100vw;
+}
+
+body{
+	font-family: avenir;
+	border: 0.05em solid black;
+	width: 375px;
+	height: 812px;
+	overflow: scroll;
+	font-size: 100%;
+	color: white;
+}
+
+@font-face{
+	font-family: 'SourceSansPro-SemiBold';
+	src: url('../assets/SourceSansPro-SemiBold.ttf');
+}
+
+header{
+	padding-left: 0.3em;
+}
+
+main{
+	background-color: black;
+	padding: 0.3em;
+}
+
+h1{
+	font-family: SourceSansPro-Bold;
+	color: #e31a1f;
+	font-size: 1.5em;
+}
+
+iframe{
+	width: 100%;
+	height: 30em;
+	border: 0em;
+}
+
+footer{
+	background-color: white;
+	width: 375px;
+	padding-top: 0.3em;
+}
+
+a.home{
+	padding: 0.3em;
+}
+
+a.search{
+	margin-left: 150px;
+}
+
+a.saved{
+	float: right;
+	padding-right: 0.6em;
+}
+
+img.saved{
+	margin-right: auto;
+}
+
+img.start{
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 0.3em;
+}
