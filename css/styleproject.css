@@ -1,0 +1,325 @@
+html{
+	width: 100vw;
+	height: 100vw;
+}
+
+body{
+	font-family: avenir;
+	color: white;
+}
+
+@font-face{;
+	font-family: 'SourceSansPro-Bold';
+	src: url('../assets/SourceSansPro-Bold.ttf');
+}
+
+h1{
+	font-family: SourceSansPro-Bold;
+	color: #e31a1f;
+	font-size: 50pt;
+}
+
+h1 img{
+	float: right;
+	margin: 0 0.3em 0 0;
+}
+
+h1.saved{
+	text-align: center;
+}
+
+h2{
+	font-family: avenir, sans-serif;
+	color: #e31a1f;
+	font-size: 40pt;
+}
+
+h2 img{
+	float: right;
+	margin: 0 0.3em 0 0;
+}
+
+h3{
+	font-family: avenir, sans-serif;
+	color: #e31a1f;
+	font-size: 30pt;
+}
+
+header{
+	padding-left: 0.3em;
+}
+
+/*main*/
+
+main{
+	padding: 0.3em;
+	background-color: black;
+	font-size: 25pt;
+	height: 44em;
+	overflow: scroll;
+}
+
+main.no_searches{
+	font-size: 25pt;
+	height: 43em;
+}
+
+main.filter{
+	font-size: 25pt;
+	height: 43em;
+}
+
+main.nosavedlocations{
+	height: 43em;
+	overflow: scroll;
+}
+
+/*input*/
+
+input[type=search]{
+	font-size: 20pt;
+	border-color: white;
+}
+
+input[type=submit]{
+	color: white;
+	font-size: 20pt;
+}
+
+input{
+	font-size: 20pt;
+}
+
+select.distance{
+	font-size: 20pt;
+	border-color: white;
+}
+
+select>option{
+	font-size: 20pt;
+}input
+
+th, td {
+	font-size: 25pt;
+}
+
+/*footer*/
+
+footer{
+	background-color: white;
+	width: 100%;
+	border-top: 0.05em solid;
+}
+
+a.home{
+	padding: 0.3em;
+}
+
+a.search{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 13em;
+
+}
+
+a.saved{
+	float: right;
+	padding-right: 0.6em;
+}
+
+/*detail pagina's*/
+
+.ksh_page{
+	height: 42em;
+	overflow: scroll;
+}
+
+.wbh_page{
+	height: 42em;
+	overflow: scroll
+}
+
+.mlh_page{
+	height: 42em;
+	overflow: scroll
+}
+
+.no_searches{
+	height: 42em;
+	overflow: scroll
+}
+
+.tpaardje_page{
+	height: 42em;
+	overflow: scroll
+}
+
+.chris_page{
+	height: 42em;
+	overflow: scroll
+}
+
+.tabac_page{
+	height: 42em;
+	overflow: scroll
+}
+
+a:link{
+	font-family: avenir;
+	color: #e31a1f;
+}
+
+a:visited{
+	font-family: avenir;
+	color: white;
+}
+
+iframe{
+	width: 100%;
+	height: 24em;
+	border: 0;
+}
+
+.filter{
+	font-size: 25pt;
+	height: 2.5em;
+}
+
+.kohnstammhuis, .wibauthuis, .mullerlulofshuis{
+	width: 100%;
+}
+
+form>p{
+	font-size: 1.5em;
+	color: #e31a1f;
+}
+
+/*sections*/
+
+
+section.savelocations{
+	height: 35em;
+	overflow: scroll;
+}
+
+section.matched_filters{
+	height: 100%;
+	overflow: scroll;
+	font-size: 25pt;
+}
+
+section>h2{
+	font-size: 25pt;
+	color: white;
+}
+
+/*articles*/ 
+
+article.ksh{
+	bordoverflower-top: 0.05em solid;
+}
+
+article.wbh{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.mlh{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.tpaard{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.chris{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+article.tabac{
+	border-top: 0.05em solid;
+	margin-top: 1em;
+}
+
+.icons{
+	height: 5em;
+}
+
+.icons_cafe{
+	height: 4.5em;
+}
+
+img.tpaardje{
+	width: 100%;
+}
+
+img.sad{
+	height: 5em;
+	margin-left: 11em;
+}
+
+img.saved_icon{
+	height: 3em;
+	padding-top: 0.5em;
+	float: right;
+}
+
+img.home_icon{
+	height: 3em;
+	padding-top: 0.5em;
+}
+
+img.search_icon{
+	height: 3em;
+	padding-top: 0.5em;
+	margin-left: 11em;
+}
+
+img.logo{
+	display: block;
+	height: 100%;
+	width: 75%;
+}
+
+img.saved{
+	height: 1em;
+}
+
+/*buttons*/
+
+img.previous{
+	display: block;
+	float: left;
+	padding: 0.3em;
+	height: 1.5em;
+}
+
+img.route{
+	display: block;
+	margin: 0em auto;
+	padding-bottom: 0.3em;
+	height: 1.5em;
+}
+
+img.next{
+	float: right;
+	padding: 0.3em;
+	height: 1.5em;
+}
+
+img.filter_icon{
+	display: block;
+	margin: 0em auto;
+	padding-top: 3em;
+	padding-bottom: 0.3em;
+	height: 1.5em;
+}
+
+img.back_button{
+	height: 100%;
+	width: 5%
+}
